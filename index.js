@@ -19,5 +19,5 @@ return kittens.shift()
 }
 
 function appendKitten(name){
-  return kittens
+  return [...kittens, name]
 }
