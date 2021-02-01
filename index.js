@@ -21,3 +21,6 @@ return kittens.shift()
 function appendKitten(name){
   return [...kittens, name]
 }
+
+function prependKitten(name)
+return 
