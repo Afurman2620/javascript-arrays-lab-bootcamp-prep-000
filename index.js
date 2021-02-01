@@ -7,5 +7,5 @@ return kittens.push(name)
 }
 
 function destructivelyPrependKitten(name){
-  return Kittens.pop(name)
+  return kittens.unshift(name)
 }
